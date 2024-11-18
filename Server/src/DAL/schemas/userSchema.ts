@@ -22,6 +22,9 @@ contacts: {
             type: String,
             default: null
         },
+        phone: {
+            type: String
+        },
         chat: {
             type: Schema.Types.ObjectId,
             ref: 'Chat'

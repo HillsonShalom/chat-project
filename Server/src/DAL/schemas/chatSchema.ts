@@ -22,8 +22,7 @@ const chatSchema = new Schema<chatDocument>({
         },
         photoUrl: {
             type: String
-        },
-        default: null
+        }
     }
 })
 

@@ -7,7 +7,8 @@ interface IUser {
     photoUrl?: string;
     phone: string;
     contacts: {
-        nickname?: string;
+        nickname: string;
+        phone: string;
         chat: Types.ObjectId | IChat
     }[]
 }
