@@ -5,5 +5,6 @@ import IMessage from "./models/message.model";
 import chatType from "./enums/chatType";
 import fileType from "./enums/fileType";
 import AppResError from "./extensions/appResError";
+import Token from "./DTOs/token";
 
-export { IChat, IUser, IGroup, IMessage, chatType, fileType, AppResError };
+export { IChat, IUser, IGroup, IMessage, chatType, fileType, AppResError, Token };
