@@ -6,5 +6,20 @@ import chatType from "./enums/chatType";
 import fileType from "./enums/fileType";
 import AppResError from "./extensions/appResError";
 import Token from "./DTOs/token";
+import { registerDto, loginDto } from "./DTOs/incoming";
+import { registerRes, loginRes, getAccountRes } from "./DTOs/outgoing";
 
-export { IChat, IUser, IGroup, IMessage, chatType, fileType, AppResError, Token };
+export {
+  IChat,
+  IUser,
+  IGroup,
+  IMessage,
+  chatType,
+  fileType,
+  AppResError,
+  Token,
+  registerDto,
+  registerRes,
+  loginDto,
+  loginRes, getAccountRes
+};
