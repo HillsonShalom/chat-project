@@ -8,7 +8,7 @@ describe("account endpoints", () => {
       .get("/api/account")
       .set("Authorization", globalThis.token);
     
-    // complete this
+    expect(res.status).toBe(200)
   });
 
   test("register", async () => {
